@@ -1,0 +1,48 @@
+body{
+  background: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 300px;
+  height: 320px;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px;
+}
+.month-container{
+  background-color: rgb(214, 91, 91);
+  color: white;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-container span{
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.date-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 80%;
+}
+
+.date-body > span:nth-child(2){
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.date-body > span:not(:nth-child(2)){
+  color: rgb(136, 136, 136);
+  font-size: 1.2rem;
+}
