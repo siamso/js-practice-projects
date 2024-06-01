@@ -1,0 +1,15 @@
+body{
+  background: lightcoral;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1{
+  color: white;
+  font-size: 6rem;
+}
+
+span{
+  padding-inline: 10px;
+}
